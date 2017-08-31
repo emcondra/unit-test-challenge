@@ -19,7 +19,7 @@ namespace UnitTestChallenge
             var candyCreator = candyCreatorStub.Object;
 
             Assert.AreEqual("dark", candyCreator.Candy.TypeOfChocolate);
-            Assert.AreEqual(100, candyCreator.Candy.Calories);
+            Assert.AreEqual(10000, candyCreator.Candy.Calories);
         }
     }
 }
